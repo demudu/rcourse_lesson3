@@ -39,3 +39,4 @@ posey_walked.plot = ggplot(data_posey_figs_sum, aes(x=walked, y=wins_perc)) +
 pdf("figures/posey_walked.pdf")
 posey_walked.plot
 dev.off()
+
